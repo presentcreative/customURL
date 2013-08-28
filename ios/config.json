@@ -1,0 +1,14 @@
+{
+	"code": [
+		"CustomURLPlugin.h",
+		"CustomURLPlugin.mm"
+	],
+	"frameworks": [
+	],
+	"userDefined": [
+		"customURL"
+	],
+	"plist": {
+		"CFBundleURLTypes.CFBundleURLSchemes": "$(customURL)"
+	}
+}
